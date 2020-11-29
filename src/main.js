@@ -82,6 +82,7 @@ import "bootstrap-vue/dist/bootstrap-vue.css";
 import "./registerServiceWorker";
 
 import "vue-select/dist/vue-select.css";
+import './registerServiceWorker'
 
 /* eslint-disable no-new */
 new Vue({
