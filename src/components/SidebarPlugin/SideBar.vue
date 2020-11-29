@@ -8,7 +8,8 @@
       <navbar-toggle-button @click.native="showSidebar"> </navbar-toggle-button>
 
       <router-link class="navbar-brand" to="/">
-        <img :src="logo" class="navbar-brand-img" alt="..." />
+        <!-- <img :src="logo" class="navbar-brand-img" alt="..." /> -->
+        <b-img :src="logo" fluid class="navbar-brand-img" alt="Agenda"></b-img>
         <!-- <h2></h2> -->
       </router-link>
 

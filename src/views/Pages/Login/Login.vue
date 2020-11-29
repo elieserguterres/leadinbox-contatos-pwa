@@ -10,7 +10,13 @@
               <p class="text-lead text-white">
                 Controle de clientes e pedidos de Cláudia Santos Jóias.
               </p> -->
-              <img :src="logo" class="navbar-brand-img" alt="..." />
+              <!-- <img  class="navbar-brand-img" alt="..." /> -->
+              <b-img
+                :src="logo"
+                fluid
+                class="navbar-brand-img"
+                alt="Agenda"
+              ></b-img>
             </b-col>
           </b-row>
         </div>
